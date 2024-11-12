@@ -1,7 +1,3 @@
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
 Actividad 5 - Unidad 0
 Uso de Git (III)
 ===============
@@ -17,7 +13,6 @@ Uso de Git (III)
 
 [Git logs](#Erre-que-erre-con-Git-Logs)
 
-[Entrega](#Entrega)
 
 ---
 
@@ -42,7 +37,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi.git
+git remote add origin git@github.com:jcmartins04/PPS-Unidad0Actividad5-JcMartin.git
 git push -u origin main
 ~~~
 
@@ -97,13 +92,4 @@ git push -u origin main
 1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
 1. Muestra los logs de las modificaciones realizadas en el último día
 
-
-### Entrega
-
-> Intenta coordinarte con tus compañeros y, a ser posible, realiza la entrega una vez que ellos hayan hecho las modificaciones oportunas en tu repositorio.
-> Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
-> + En la sección de ___Texto en línea___, pega el __enlace__ a tu repositorio de github.com
-> + En la sección de ___Archivos adjuntos___, envía __comprimida la carpeta local de tu repositorio__.
-
-![Puedes verlo aquí](imagenes/Entrega.png)
 
