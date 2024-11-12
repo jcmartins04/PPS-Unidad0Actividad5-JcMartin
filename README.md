@@ -47,7 +47,7 @@ git push -u origin main
 
 1. Mirá tus remotos.
 
-![](imagenes/PPS-remote.png)
+![](imagenes/PPS-remote5.png)
 
 ### Visualizando la página web
 
@@ -59,7 +59,7 @@ git push -u origin main
 3. Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste en el punto anterior.
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
 
-![](imagenes/PPS-webjc.png)
+![](imagenes/PPS-webjcm.png)
 
 
 ### Colaborando
