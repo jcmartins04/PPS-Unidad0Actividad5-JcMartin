@@ -11,7 +11,7 @@
             if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg"){
                 $name = substr($img,0,-4);
             }else if (substr($img,-4)=="jpeg") {
-                $name = substr($img,0,-4);
+                $name = substr($img,0,-5);
             }
             echo "<a href='profile/$name.html'>";
             echo "<img src='img/$img' width='130'>";
