@@ -32,7 +32,7 @@ Crea tu proyecto en tu dispositivo local clonando [este repositorio](https://git
 
 > Recuerda  cómo creamos el repositorio desde la línea de comandos:
 ~~~
-echo "# PPS-Unidad0Actividad5-JoseMi" >> README.md
+echo "# PPS-Unidad0Actividad5-JcMartin" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
