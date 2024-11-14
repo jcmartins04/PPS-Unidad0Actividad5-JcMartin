@@ -9,7 +9,7 @@
             if( $img=="." || $img==".." )
                 continue;
             if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg"){
-                $name = substr($img,0,-5);
+                $name = substr($img,0,-4);
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-4);
             }
