@@ -96,35 +96,35 @@ git push -u origin main
 
 1. Muestra los logs
 ~~~
-_git log_
+git log
 ~~~
 
 ![Logs en general](imagenes/PPS-logs.png)
 
 2. Muestra los logs de los últimos 3 commits
 ~~~
-_git log -n -3_
+git log -n -3
 ~~~
 
 ![Logs 3 ultimos commits](imagenes/PPS-last3commits.png)
 
 3. Muestra los logs utilizando el modificador ``--pretty``
 ~~~
-_git log -n 2 --pretty=format:"%h - %an, %ar : %s"_
+git log -n 2 --pretty=format:"%h - %an, %ar : %s"
 ~~~
 
 ![Logs logs ..pretty](imagenes/PPS-logspretty.png)
 
 4. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
 ~~~
-_git log -n 2 -p_
+git log -n 2 -p
 ~~~
 
 ![Logs últimos 2 commits](imagenes/PPS-last2commits.png)
 
 5. Muestra los logs de las modificaciones realizadas en el último día
 ~~~
-_git log --since="1 day ago"_
+git log --since="1 day ago"
 ~~~
 
 ![Logs último día](imagenes/PPS-logslastday.png)
