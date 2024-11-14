@@ -32,7 +32,7 @@ Crea tu proyecto en tu dispositivo local clonando [este repositorio](https://git
 
 > Recuerda  cómo creamos el repositorio desde la línea de comandos:
 ~~~
-echo "# PPS-Unidad0Actividad5-JoseMi" >> README.md
+echo "# PPS-Unidad0Actividad5-JcMartin" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -95,9 +95,36 @@ git push -u origin main
 >Repasemos git logs
 
 1. Muestra los logs
+~~~
+*`git log`
+~~~
+
+![Logs en general](imagenes/PPS-logs.png)
+
 2. Muestra los logs de los últimos 3 commits
+~~~
+*`git log -n -3`
+~~~
+
+![Logs 3 ultimos commits](imagenes/PPS-last3commits.png)
+
 1. Muestra los logs utilizando el modificador ``--pretty``
+~~~
+*`git log -n 2 --pretty=format:"%h - %an, %ar : %s"`
+~~~
+
+![Logs logs ..pretty](imagenes/PPS-logspretty.png)
+
 1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
+~~~
+*`git log -n 2 -p`
+~~~
+
+![Logs últimos 2 commits](imagenes/PPS-last2commits.png)
+
 1. Muestra los logs de las modificaciones realizadas en el último día
+~~~
+*`git log --since="1 day ago"`
+~~~
 
-
+![Logs último día](imagenes/PPS-logslastday.png)
